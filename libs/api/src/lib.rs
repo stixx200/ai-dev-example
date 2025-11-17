@@ -82,7 +82,7 @@ async fn list_pets(
 ) -> Json<serde_json::Value> {
     let pets = state.pet_store.list_pets();
     Json(json!({
-        "pets": pets,
+        "pets": pets,,
         "count": pets.len()
     }))
 }
