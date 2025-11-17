@@ -14,5 +14,6 @@
   },
   "plugins": [
     "@monodon/rust"
-  ]
+  ],
+  "nxCloudId": "691b3183d9db341741580eff"
 }
