@@ -362,12 +362,436 @@
     }
   },
   "externalNodes": {
+    "cargo:log": {
+      "type": "cargo",
+      "name": "cargo:log",
+      "data": {
+        "packageName": "log",
+        "version": "0.4.28"
+      }
+    },
+    "cargo:memchr": {
+      "type": "cargo",
+      "name": "cargo:memchr",
+      "data": {
+        "packageName": "memchr",
+        "version": "2.7.6"
+      }
+    },
+    "cargo:doc-comment": {
+      "type": "cargo",
+      "name": "cargo:doc-comment",
+      "data": {
+        "packageName": "doc-comment",
+        "version": "0.0.0"
+      }
+    },
     "cargo:libc": {
       "type": "cargo",
       "name": "cargo:libc",
       "data": {
         "packageName": "libc",
         "version": "0.2.177"
+      }
+    },
+    "cargo:axum": {
+      "type": "cargo",
+      "name": "cargo:axum",
+      "data": {
+        "packageName": "axum",
+        "version": "0.8.7"
+      }
+    },
+    "cargo:http": {
+      "type": "cargo",
+      "name": "cargo:http",
+      "data": {
+        "packageName": "http",
+        "version": "1.3.1"
+      }
+    },
+    "cargo:serde": {
+      "type": "cargo",
+      "name": "cargo:serde",
+      "data": {
+        "packageName": "serde",
+        "version": "1.0.228"
+      }
+    },
+    "cargo:serde_json": {
+      "type": "cargo",
+      "name": "cargo:serde_json",
+      "data": {
+        "packageName": "serde_json",
+        "version": "1.0.145"
+      }
+    },
+    "cargo:tokio": {
+      "type": "cargo",
+      "name": "cargo:tokio",
+      "data": {
+        "packageName": "tokio",
+        "version": "1.48.0"
+      }
+    },
+    "cargo:tower": {
+      "type": "cargo",
+      "name": "cargo:tower",
+      "data": {
+        "packageName": "tower",
+        "version": "0.5.2"
+      }
+    },
+    "cargo:tower-http": {
+      "type": "cargo",
+      "name": "cargo:tower-http",
+      "data": {
+        "packageName": "tower-http",
+        "version": "0.6.6"
+      }
+    },
+    "cargo:tracing": {
+      "type": "cargo",
+      "name": "cargo:tracing",
+      "data": {
+        "packageName": "tracing",
+        "version": "0.1.41"
+      }
+    },
+    "cargo:tracing-subscriber": {
+      "type": "cargo",
+      "name": "cargo:tracing-subscriber",
+      "data": {
+        "packageName": "tracing-subscriber",
+        "version": "0.3.20"
+      }
+    },
+    "cargo:uuid": {
+      "type": "cargo",
+      "name": "cargo:uuid",
+      "data": {
+        "packageName": "uuid",
+        "version": "1.18.1"
+      }
+    },
+    "cargo:portable-atomic": {
+      "type": "cargo",
+      "name": "cargo:portable-atomic",
+      "data": {
+        "packageName": "portable-atomic",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:criterion": {
+      "type": "cargo",
+      "name": "cargo:criterion",
+      "data": {
+        "packageName": "criterion",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:futures": {
+      "type": "cargo",
+      "name": "cargo:futures",
+      "data": {
+        "packageName": "futures",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:rayon": {
+      "type": "cargo",
+      "name": "cargo:rayon",
+      "data": {
+        "packageName": "rayon",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:axum-core": {
+      "type": "cargo",
+      "name": "cargo:axum-core",
+      "data": {
+        "packageName": "axum-core",
+        "version": "0.5.5"
+      }
+    },
+    "cargo:axum-macros": {
+      "type": "cargo",
+      "name": "cargo:axum-macros",
+      "data": {
+        "packageName": "axum-macros",
+        "version": "0.5.0"
+      }
+    },
+    "cargo:base64": {
+      "type": "cargo",
+      "name": "cargo:base64",
+      "data": {
+        "packageName": "base64",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:bytes": {
+      "type": "cargo",
+      "name": "cargo:bytes",
+      "data": {
+        "packageName": "bytes",
+        "version": "1.11.0"
+      }
+    },
+    "cargo:form_urlencoded": {
+      "type": "cargo",
+      "name": "cargo:form_urlencoded",
+      "data": {
+        "packageName": "form_urlencoded",
+        "version": "1.2.2"
+      }
+    },
+    "cargo:futures-util": {
+      "type": "cargo",
+      "name": "cargo:futures-util",
+      "data": {
+        "packageName": "futures-util",
+        "version": "0.3.31"
+      }
+    },
+    "cargo:http-body": {
+      "type": "cargo",
+      "name": "cargo:http-body",
+      "data": {
+        "packageName": "http-body",
+        "version": "1.0.1"
+      }
+    },
+    "cargo:http-body-util": {
+      "type": "cargo",
+      "name": "cargo:http-body-util",
+      "data": {
+        "packageName": "http-body-util",
+        "version": "0.1.3"
+      }
+    },
+    "cargo:hyper": {
+      "type": "cargo",
+      "name": "cargo:hyper",
+      "data": {
+        "packageName": "hyper",
+        "version": "1.8.1"
+      }
+    },
+    "cargo:hyper-util": {
+      "type": "cargo",
+      "name": "cargo:hyper-util",
+      "data": {
+        "packageName": "hyper-util",
+        "version": "0.1.18"
+      }
+    },
+    "cargo:itoa": {
+      "type": "cargo",
+      "name": "cargo:itoa",
+      "data": {
+        "packageName": "itoa",
+        "version": "1.0.15"
+      }
+    },
+    "cargo:matchit": {
+      "type": "cargo",
+      "name": "cargo:matchit",
+      "data": {
+        "packageName": "matchit",
+        "version": "0.8.4"
+      }
+    },
+    "cargo:mime": {
+      "type": "cargo",
+      "name": "cargo:mime",
+      "data": {
+        "packageName": "mime",
+        "version": "0.3.17"
+      }
+    },
+    "cargo:multer": {
+      "type": "cargo",
+      "name": "cargo:multer",
+      "data": {
+        "packageName": "multer",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:percent-encoding": {
+      "type": "cargo",
+      "name": "cargo:percent-encoding",
+      "data": {
+        "packageName": "percent-encoding",
+        "version": "2.3.2"
+      }
+    },
+    "cargo:pin-project-lite": {
+      "type": "cargo",
+      "name": "cargo:pin-project-lite",
+      "data": {
+        "packageName": "pin-project-lite",
+        "version": "0.2.16"
+      }
+    },
+    "cargo:reqwest": {
+      "type": "cargo",
+      "name": "cargo:reqwest",
+      "data": {
+        "packageName": "reqwest",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:serde_core": {
+      "type": "cargo",
+      "name": "cargo:serde_core",
+      "data": {
+        "packageName": "serde_core",
+        "version": "1.0.228"
+      }
+    },
+    "cargo:serde_path_to_error": {
+      "type": "cargo",
+      "name": "cargo:serde_path_to_error",
+      "data": {
+        "packageName": "serde_path_to_error",
+        "version": "0.1.20"
+      }
+    },
+    "cargo:serde_urlencoded": {
+      "type": "cargo",
+      "name": "cargo:serde_urlencoded",
+      "data": {
+        "packageName": "serde_urlencoded",
+        "version": "0.7.1"
+      }
+    },
+    "cargo:sha1": {
+      "type": "cargo",
+      "name": "cargo:sha1",
+      "data": {
+        "packageName": "sha1",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:sync_wrapper": {
+      "type": "cargo",
+      "name": "cargo:sync_wrapper",
+      "data": {
+        "packageName": "sync_wrapper",
+        "version": "1.0.2"
+      }
+    },
+    "cargo:tokio-tungstenite": {
+      "type": "cargo",
+      "name": "cargo:tokio-tungstenite",
+      "data": {
+        "packageName": "tokio-tungstenite",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:tower-layer": {
+      "type": "cargo",
+      "name": "cargo:tower-layer",
+      "data": {
+        "packageName": "tower-layer",
+        "version": "0.3.3"
+      }
+    },
+    "cargo:tower-service": {
+      "type": "cargo",
+      "name": "cargo:tower-service",
+      "data": {
+        "packageName": "tower-service",
+        "version": "0.3.3"
+      }
+    },
+    "cargo:anyhow": {
+      "type": "cargo",
+      "name": "cargo:anyhow",
+      "data": {
+        "packageName": "anyhow",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:quickcheck": {
+      "type": "cargo",
+      "name": "cargo:quickcheck",
+      "data": {
+        "packageName": "quickcheck",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:quickcheck_macros": {
+      "type": "cargo",
+      "name": "cargo:quickcheck_macros",
+      "data": {
+        "packageName": "quickcheck_macros",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:time": {
+      "type": "cargo",
+      "name": "cargo:time",
+      "data": {
+        "packageName": "time",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:tokio-stream": {
+      "type": "cargo",
+      "name": "cargo:tokio-stream",
+      "data": {
+        "packageName": "tokio-stream",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:futures-core": {
+      "type": "cargo",
+      "name": "cargo:futures-core",
+      "data": {
+        "packageName": "futures-core",
+        "version": "0.3.31"
+      }
+    },
+    "cargo:proc-macro2": {
+      "type": "cargo",
+      "name": "cargo:proc-macro2",
+      "data": {
+        "packageName": "proc-macro2",
+        "version": "1.0.103"
+      }
+    },
+    "cargo:quote": {
+      "type": "cargo",
+      "name": "cargo:quote",
+      "data": {
+        "packageName": "quote",
+        "version": "1.0.42"
+      }
+    },
+    "cargo:syn": {
+      "type": "cargo",
+      "name": "cargo:syn",
+      "data": {
+        "packageName": "syn",
+        "version": "2.0.110"
+      }
+    },
+    "cargo:rustversion": {
+      "type": "cargo",
+      "name": "cargo:rustversion",
+      "data": {
+        "packageName": "rustversion",
+        "version": "1.0.22"
+      }
+    },
+    "cargo:trybuild": {
+      "type": "cargo",
+      "name": "cargo:trybuild",
+      "data": {
+        "packageName": "trybuild",
+        "version": "0.0.0"
       }
     },
     "cargo:arbitrary": {
@@ -386,51 +810,11 @@
         "version": "0.0.0"
       }
     },
-    "cargo:serde_core": {
-      "type": "cargo",
-      "name": "cargo:serde_core",
-      "data": {
-        "packageName": "serde_core",
-        "version": "1.0.228"
-      }
-    },
-    "cargo:rustversion": {
-      "type": "cargo",
-      "name": "cargo:rustversion",
-      "data": {
-        "packageName": "rustversion",
-        "version": "1.0.22"
-      }
-    },
-    "cargo:serde_json": {
-      "type": "cargo",
-      "name": "cargo:serde_json",
-      "data": {
-        "packageName": "serde_json",
-        "version": "0.0.0"
-      }
-    },
-    "cargo:serde": {
-      "type": "cargo",
-      "name": "cargo:serde",
-      "data": {
-        "packageName": "serde",
-        "version": "1.0.228"
-      }
-    },
     "cargo:serde_test": {
       "type": "cargo",
       "name": "cargo:serde_test",
       "data": {
         "packageName": "serde_test",
-        "version": "0.0.0"
-      }
-    },
-    "cargo:trybuild": {
-      "type": "cargo",
-      "name": "cargo:trybuild",
-      "data": {
-        "packageName": "trybuild",
         "version": "0.0.0"
       }
     },
@@ -458,27 +842,19 @@
         "version": "0.0.0"
       }
     },
-    "cargo:criterion": {
-      "type": "cargo",
-      "name": "cargo:criterion",
-      "data": {
-        "packageName": "criterion",
-        "version": "0.0.0"
-      }
-    },
-    "cargo:quickcheck": {
-      "type": "cargo",
-      "name": "cargo:quickcheck",
-      "data": {
-        "packageName": "quickcheck",
-        "version": "0.0.0"
-      }
-    },
     "cargo:rand": {
       "type": "cargo",
       "name": "cargo:rand",
       "data": {
         "packageName": "rand",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:loom": {
+      "type": "cargo",
+      "name": "cargo:loom",
+      "data": {
+        "packageName": "loom",
         "version": "0.0.0"
       }
     },
@@ -634,12 +1010,68 @@
         "version": "0.4.42"
       }
     },
-    "cargo:uuid": {
+    "cargo:futures-sink": {
       "type": "cargo",
-      "name": "cargo:uuid",
+      "name": "cargo:futures-sink",
       "data": {
-        "packageName": "uuid",
-        "version": "1.18.1"
+        "packageName": "futures-sink",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:futures-channel": {
+      "type": "cargo",
+      "name": "cargo:futures-channel",
+      "data": {
+        "packageName": "futures-channel",
+        "version": "0.3.31"
+      }
+    },
+    "cargo:futures-io": {
+      "type": "cargo",
+      "name": "cargo:futures-io",
+      "data": {
+        "packageName": "futures-io",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:futures-macro": {
+      "type": "cargo",
+      "name": "cargo:futures-macro",
+      "data": {
+        "packageName": "futures-macro",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:futures-task": {
+      "type": "cargo",
+      "name": "cargo:futures-task",
+      "data": {
+        "packageName": "futures-task",
+        "version": "0.3.31"
+      }
+    },
+    "cargo:pin-utils": {
+      "type": "cargo",
+      "name": "cargo:pin-utils",
+      "data": {
+        "packageName": "pin-utils",
+        "version": "0.1.0"
+      }
+    },
+    "cargo:slab": {
+      "type": "cargo",
+      "name": "cargo:slab",
+      "data": {
+        "packageName": "slab",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:tokio-io": {
+      "type": "cargo",
+      "name": "cargo:tokio-io",
+      "data": {
+        "packageName": "tokio-io",
+        "version": "0.0.0"
       }
     },
     "cargo:cfg-if": {
@@ -666,6 +1098,134 @@
         "version": "5.3.0"
       }
     },
+    "cargo:fnv": {
+      "type": "cargo",
+      "name": "cargo:fnv",
+      "data": {
+        "packageName": "fnv",
+        "version": "1.0.7"
+      }
+    },
+    "cargo:atomic-waker": {
+      "type": "cargo",
+      "name": "cargo:atomic-waker",
+      "data": {
+        "packageName": "atomic-waker",
+        "version": "1.1.2"
+      }
+    },
+    "cargo:h2": {
+      "type": "cargo",
+      "name": "cargo:h2",
+      "data": {
+        "packageName": "h2",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:httparse": {
+      "type": "cargo",
+      "name": "cargo:httparse",
+      "data": {
+        "packageName": "httparse",
+        "version": "1.10.1"
+      }
+    },
+    "cargo:httpdate": {
+      "type": "cargo",
+      "name": "cargo:httpdate",
+      "data": {
+        "packageName": "httpdate",
+        "version": "1.0.3"
+      }
+    },
+    "cargo:smallvec": {
+      "type": "cargo",
+      "name": "cargo:smallvec",
+      "data": {
+        "packageName": "smallvec",
+        "version": "1.15.1"
+      }
+    },
+    "cargo:want": {
+      "type": "cargo",
+      "name": "cargo:want",
+      "data": {
+        "packageName": "want",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:pretty_env_logger": {
+      "type": "cargo",
+      "name": "cargo:pretty_env_logger",
+      "data": {
+        "packageName": "pretty_env_logger",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:spmc": {
+      "type": "cargo",
+      "name": "cargo:spmc",
+      "data": {
+        "packageName": "spmc",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:tokio-test": {
+      "type": "cargo",
+      "name": "cargo:tokio-test",
+      "data": {
+        "packageName": "tokio-test",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:tokio-util": {
+      "type": "cargo",
+      "name": "cargo:tokio-util",
+      "data": {
+        "packageName": "tokio-util",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:ipnet": {
+      "type": "cargo",
+      "name": "cargo:ipnet",
+      "data": {
+        "packageName": "ipnet",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:socket2": {
+      "type": "cargo",
+      "name": "cargo:socket2",
+      "data": {
+        "packageName": "socket2",
+        "version": "0.6.1"
+      }
+    },
+    "cargo:pnet_datalink": {
+      "type": "cargo",
+      "name": "cargo:pnet_datalink",
+      "data": {
+        "packageName": "pnet_datalink",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:system-configuration": {
+      "type": "cargo",
+      "name": "cargo:system-configuration",
+      "data": {
+        "packageName": "system-configuration",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:windows-registry": {
+      "type": "cargo",
+      "name": "cargo:windows-registry",
+      "data": {
+        "packageName": "windows-registry",
+        "version": "0.0.0"
+      }
+    },
     "cargo:chrono-tz": {
       "type": "cargo",
       "name": "cargo:chrono-tz",
@@ -680,14 +1240,6 @@
       "data": {
         "packageName": "getrandom",
         "version": "0.3.4"
-      }
-    },
-    "cargo:log": {
-      "type": "cargo",
-      "name": "cargo:log",
-      "data": {
-        "packageName": "log",
-        "version": "0.4.28"
       }
     },
     "cargo:android_system_properties": {
@@ -730,12 +1282,28 @@
         "version": "1.2.46"
       }
     },
+    "cargo:no-panic": {
+      "type": "cargo",
+      "name": "cargo:no-panic",
+      "data": {
+        "packageName": "no-panic",
+        "version": "0.0.0"
+      }
+    },
     "cargo:once_cell": {
       "type": "cargo",
       "name": "cargo:once_cell",
       "data": {
         "packageName": "once_cell",
         "version": "1.21.3"
+      }
+    },
+    "cargo:spin": {
+      "type": "cargo",
+      "name": "cargo:spin",
+      "data": {
+        "packageName": "spin",
+        "version": "0.0.0"
       }
     },
     "cargo:owning_ref": {
@@ -778,20 +1346,92 @@
         "version": "0.0.0"
       }
     },
-    "cargo:proc-macro2": {
-      "type": "cargo",
-      "name": "cargo:proc-macro2",
-      "data": {
-        "packageName": "proc-macro2",
-        "version": "1.0.103"
-      }
-    },
     "cargo:sval_derive": {
       "type": "cargo",
       "name": "cargo:sval_derive",
       "data": {
         "packageName": "sval_derive",
         "version": "0.0.0"
+      }
+    },
+    "cargo:regex-automata": {
+      "type": "cargo",
+      "name": "cargo:regex-automata",
+      "data": {
+        "packageName": "regex-automata",
+        "version": "0.4.13"
+      }
+    },
+    "cargo:actix-router": {
+      "type": "cargo",
+      "name": "cargo:actix-router",
+      "data": {
+        "packageName": "actix-router",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:gonzales": {
+      "type": "cargo",
+      "name": "cargo:gonzales",
+      "data": {
+        "packageName": "gonzales",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:path-tree": {
+      "type": "cargo",
+      "name": "cargo:path-tree",
+      "data": {
+        "packageName": "path-tree",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:regex": {
+      "type": "cargo",
+      "name": "cargo:regex",
+      "data": {
+        "packageName": "regex",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:route-recognizer": {
+      "type": "cargo",
+      "name": "cargo:route-recognizer",
+      "data": {
+        "packageName": "route-recognizer",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:routefinder": {
+      "type": "cargo",
+      "name": "cargo:routefinder",
+      "data": {
+        "packageName": "routefinder",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:env_logger": {
+      "type": "cargo",
+      "name": "cargo:env_logger",
+      "data": {
+        "packageName": "env_logger",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:wasi": {
+      "type": "cargo",
+      "name": "cargo:wasi",
+      "data": {
+        "packageName": "wasi",
+        "version": "0.11.1+wasi-snapshot-preview1"
+      }
+    },
+    "cargo:windows-sys": {
+      "type": "cargo",
+      "name": "cargo:windows-sys",
+      "data": {
+        "packageName": "windows-sys",
+        "version": "0.60.2"
       }
     },
     "cargo:libm": {
@@ -826,22 +1466,6 @@
         "version": "0.9.12"
       }
     },
-    "cargo:portable-atomic": {
-      "type": "cargo",
-      "name": "cargo:portable-atomic",
-      "data": {
-        "packageName": "portable-atomic",
-        "version": "0.0.0"
-      }
-    },
-    "cargo:regex": {
-      "type": "cargo",
-      "name": "cargo:regex",
-      "data": {
-        "packageName": "regex",
-        "version": "0.0.0"
-      }
-    },
     "cargo:lock_api": {
       "type": "cargo",
       "name": "cargo:lock_api",
@@ -866,20 +1490,20 @@
         "version": "0.0.0"
       }
     },
-    "cargo:smallvec": {
-      "type": "cargo",
-      "name": "cargo:smallvec",
-      "data": {
-        "packageName": "smallvec",
-        "version": "1.15.1"
-      }
-    },
     "cargo:redox_syscall": {
       "type": "cargo",
       "name": "cargo:redox_syscall",
       "data": {
         "packageName": "redox_syscall",
         "version": "0.5.18"
+      }
+    },
+    "cargo:static_assertions": {
+      "type": "cargo",
+      "name": "cargo:static_assertions",
+      "data": {
+        "packageName": "static_assertions",
+        "version": "0.0.0"
       }
     },
     "cargo:unicode-ident": {
@@ -895,22 +1519,6 @@
       "name": "cargo:flate2",
       "data": {
         "packageName": "flate2",
-        "version": "0.0.0"
-      }
-    },
-    "cargo:quote": {
-      "type": "cargo",
-      "name": "cargo:quote",
-      "data": {
-        "packageName": "quote",
-        "version": "1.0.42"
-      }
-    },
-    "cargo:rayon": {
-      "type": "cargo",
-      "name": "cargo:rayon",
-      "data": {
-        "packageName": "rayon",
         "version": "0.0.0"
       }
     },
@@ -930,20 +1538,140 @@
         "version": "2.10.0"
       }
     },
-    "cargo:loom": {
+    "cargo:aho-corasick": {
       "type": "cargo",
-      "name": "cargo:loom",
+      "name": "cargo:aho-corasick",
       "data": {
-        "packageName": "loom",
+        "packageName": "aho-corasick",
+        "version": "1.1.4"
+      }
+    },
+    "cargo:regex-syntax": {
+      "type": "cargo",
+      "name": "cargo:regex-syntax",
+      "data": {
+        "packageName": "regex-syntax",
+        "version": "0.8.8"
+      }
+    },
+    "cargo:bstr": {
+      "type": "cargo",
+      "name": "cargo:bstr",
+      "data": {
+        "packageName": "bstr",
         "version": "0.0.0"
       }
     },
-    "cargo:syn": {
+    "cargo:regex-test": {
       "type": "cargo",
-      "name": "cargo:syn",
+      "name": "cargo:regex-test",
       "data": {
-        "packageName": "syn",
-        "version": "2.0.110"
+        "packageName": "regex-test",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:num_cpus": {
+      "type": "cargo",
+      "name": "cargo:num_cpus",
+      "data": {
+        "packageName": "num_cpus",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:rand_xorshift": {
+      "type": "cargo",
+      "name": "cargo:rand_xorshift",
+      "data": {
+        "packageName": "rand_xorshift",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:indexmap": {
+      "type": "cargo",
+      "name": "cargo:indexmap",
+      "data": {
+        "packageName": "indexmap",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:ryu": {
+      "type": "cargo",
+      "name": "cargo:ryu",
+      "data": {
+        "packageName": "ryu",
+        "version": "1.0.20"
+      }
+    },
+    "cargo:automod": {
+      "type": "cargo",
+      "name": "cargo:automod",
+      "data": {
+        "packageName": "automod",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:indoc": {
+      "type": "cargo",
+      "name": "cargo:indoc",
+      "data": {
+        "packageName": "indoc",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:ref-cast": {
+      "type": "cargo",
+      "name": "cargo:ref-cast",
+      "data": {
+        "packageName": "ref-cast",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:serde_bytes": {
+      "type": "cargo",
+      "name": "cargo:serde_bytes",
+      "data": {
+        "packageName": "serde_bytes",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:serde_stacker": {
+      "type": "cargo",
+      "name": "cargo:serde_stacker",
+      "data": {
+        "packageName": "serde_stacker",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:lazy_static": {
+      "type": "cargo",
+      "name": "cargo:lazy_static",
+      "data": {
+        "packageName": "lazy_static",
+        "version": "1.5.0"
+      }
+    },
+    "cargo:memory-stats": {
+      "type": "cargo",
+      "name": "cargo:memory-stats",
+      "data": {
+        "packageName": "memory-stats",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:proptest": {
+      "type": "cargo",
+      "name": "cargo:proptest",
+      "data": {
+        "packageName": "proptest",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:signal-hook": {
+      "type": "cargo",
+      "name": "cargo:signal-hook",
+      "data": {
+        "packageName": "signal-hook",
+        "version": "0.0.0"
       }
     },
     "cargo:malloc_size_of": {
@@ -978,35 +1706,11 @@
         "version": "0.0.0"
       }
     },
-    "cargo:anyhow": {
-      "type": "cargo",
-      "name": "cargo:anyhow",
-      "data": {
-        "packageName": "anyhow",
-        "version": "0.0.0"
-      }
-    },
-    "cargo:automod": {
-      "type": "cargo",
-      "name": "cargo:automod",
-      "data": {
-        "packageName": "automod",
-        "version": "0.0.0"
-      }
-    },
     "cargo:insta": {
       "type": "cargo",
       "name": "cargo:insta",
       "data": {
         "packageName": "insta",
-        "version": "0.0.0"
-      }
-    },
-    "cargo:ref-cast": {
-      "type": "cargo",
-      "name": "cargo:ref-cast",
-      "data": {
-        "packageName": "ref-cast",
         "version": "0.0.0"
       }
     },
@@ -1026,19 +1730,267 @@
         "version": "0.0.0"
       }
     },
-    "cargo:reqwest": {
-      "type": "cargo",
-      "name": "cargo:reqwest",
-      "data": {
-        "packageName": "reqwest",
-        "version": "0.0.0"
-      }
-    },
     "cargo:walkdir": {
       "type": "cargo",
       "name": "cargo:walkdir",
       "data": {
         "packageName": "walkdir",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:mio": {
+      "type": "cargo",
+      "name": "cargo:mio",
+      "data": {
+        "packageName": "mio",
+        "version": "1.1.0"
+      }
+    },
+    "cargo:tokio-macros": {
+      "type": "cargo",
+      "name": "cargo:tokio-macros",
+      "data": {
+        "packageName": "tokio-macros",
+        "version": "2.6.0"
+      }
+    },
+    "cargo:async-stream": {
+      "type": "cargo",
+      "name": "cargo:async-stream",
+      "data": {
+        "packageName": "async-stream",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:futures-concurrency": {
+      "type": "cargo",
+      "name": "cargo:futures-concurrency",
+      "data": {
+        "packageName": "futures-concurrency",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:mockall": {
+      "type": "cargo",
+      "name": "cargo:mockall",
+      "data": {
+        "packageName": "mockall",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:tracing-mock": {
+      "type": "cargo",
+      "name": "cargo:tracing-mock",
+      "data": {
+        "packageName": "tracing-mock",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:io-uring": {
+      "type": "cargo",
+      "name": "cargo:io-uring",
+      "data": {
+        "packageName": "io-uring",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:mio-aio": {
+      "type": "cargo",
+      "name": "cargo:mio-aio",
+      "data": {
+        "packageName": "mio-aio",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:signal-hook-registry": {
+      "type": "cargo",
+      "name": "cargo:signal-hook-registry",
+      "data": {
+        "packageName": "signal-hook-registry",
+        "version": "1.4.6"
+      }
+    },
+    "cargo:nix": {
+      "type": "cargo",
+      "name": "cargo:nix",
+      "data": {
+        "packageName": "nix",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:hdrhistogram": {
+      "type": "cargo",
+      "name": "cargo:hdrhistogram",
+      "data": {
+        "packageName": "hdrhistogram",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:tower-test": {
+      "type": "cargo",
+      "name": "cargo:tower-test",
+      "data": {
+        "packageName": "tower-test",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:async-compression": {
+      "type": "cargo",
+      "name": "cargo:async-compression",
+      "data": {
+        "packageName": "async-compression",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:http-range-header": {
+      "type": "cargo",
+      "name": "cargo:http-range-header",
+      "data": {
+        "packageName": "http-range-header",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:iri-string": {
+      "type": "cargo",
+      "name": "cargo:iri-string",
+      "data": {
+        "packageName": "iri-string",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:mime_guess": {
+      "type": "cargo",
+      "name": "cargo:mime_guess",
+      "data": {
+        "packageName": "mime_guess",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:async-trait": {
+      "type": "cargo",
+      "name": "cargo:async-trait",
+      "data": {
+        "packageName": "async-trait",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:brotli": {
+      "type": "cargo",
+      "name": "cargo:brotli",
+      "data": {
+        "packageName": "brotli",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:zstd": {
+      "type": "cargo",
+      "name": "cargo:zstd",
+      "data": {
+        "packageName": "zstd",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:tracing-attributes": {
+      "type": "cargo",
+      "name": "cargo:tracing-attributes",
+      "data": {
+        "packageName": "tracing-attributes",
+        "version": "0.1.30"
+      }
+    },
+    "cargo:tracing-core": {
+      "type": "cargo",
+      "name": "cargo:tracing-core",
+      "data": {
+        "packageName": "tracing-core",
+        "version": "0.1.34"
+      }
+    },
+    "cargo:valuable": {
+      "type": "cargo",
+      "name": "cargo:valuable",
+      "data": {
+        "packageName": "valuable",
+        "version": "0.1.1"
+      }
+    },
+    "cargo:ahash": {
+      "type": "cargo",
+      "name": "cargo:ahash",
+      "data": {
+        "packageName": "ahash",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:lru": {
+      "type": "cargo",
+      "name": "cargo:lru",
+      "data": {
+        "packageName": "lru",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:matchers": {
+      "type": "cargo",
+      "name": "cargo:matchers",
+      "data": {
+        "packageName": "matchers",
+        "version": "0.2.0"
+      }
+    },
+    "cargo:nu-ansi-term": {
+      "type": "cargo",
+      "name": "cargo:nu-ansi-term",
+      "data": {
+        "packageName": "nu-ansi-term",
+        "version": "0.50.3"
+      }
+    },
+    "cargo:sharded-slab": {
+      "type": "cargo",
+      "name": "cargo:sharded-slab",
+      "data": {
+        "packageName": "sharded-slab",
+        "version": "0.1.7"
+      }
+    },
+    "cargo:thread_local": {
+      "type": "cargo",
+      "name": "cargo:thread_local",
+      "data": {
+        "packageName": "thread_local",
+        "version": "1.1.9"
+      }
+    },
+    "cargo:tracing-log": {
+      "type": "cargo",
+      "name": "cargo:tracing-log",
+      "data": {
+        "packageName": "tracing-log",
+        "version": "0.2.0"
+      }
+    },
+    "cargo:tracing-serde": {
+      "type": "cargo",
+      "name": "cargo:tracing-serde",
+      "data": {
+        "packageName": "tracing-serde",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:tracing-futures": {
+      "type": "cargo",
+      "name": "cargo:tracing-futures",
+      "data": {
+        "packageName": "tracing-futures",
+        "version": "0.0.0"
+      }
+    },
+    "cargo:valuable-serde": {
+      "type": "cargo",
+      "name": "cargo:valuable-serde",
+      "data": {
+        "packageName": "valuable-serde",
         "version": "0.0.0"
       }
     },
@@ -1138,6 +2090,14 @@
         "version": "0.0.0"
       }
     },
+    "cargo:valuable-derive": {
+      "type": "cargo",
+      "name": "cargo:valuable-derive",
+      "data": {
+        "packageName": "valuable-derive",
+        "version": "0.0.0"
+      }
+    },
     "cargo:rustc-std-workspace-alloc": {
       "type": "cargo",
       "name": "cargo:rustc-std-workspace-alloc",
@@ -1226,12 +2186,76 @@
         "version": "0.5.1"
       }
     },
-    "cargo:futures": {
+    "cargo:windows-targets": {
       "type": "cargo",
-      "name": "cargo:futures",
+      "name": "cargo:windows-targets",
       "data": {
-        "packageName": "futures",
-        "version": "0.0.0"
+        "packageName": "windows-targets",
+        "version": "0.53.5"
+      }
+    },
+    "cargo:windows_aarch64_gnullvm": {
+      "type": "cargo",
+      "name": "cargo:windows_aarch64_gnullvm",
+      "data": {
+        "packageName": "windows_aarch64_gnullvm",
+        "version": "0.53.1"
+      }
+    },
+    "cargo:windows_x86_64_msvc": {
+      "type": "cargo",
+      "name": "cargo:windows_x86_64_msvc",
+      "data": {
+        "packageName": "windows_x86_64_msvc",
+        "version": "0.53.1"
+      }
+    },
+    "cargo:windows_aarch64_msvc": {
+      "type": "cargo",
+      "name": "cargo:windows_aarch64_msvc",
+      "data": {
+        "packageName": "windows_aarch64_msvc",
+        "version": "0.53.1"
+      }
+    },
+    "cargo:windows_i686_gnu": {
+      "type": "cargo",
+      "name": "cargo:windows_i686_gnu",
+      "data": {
+        "packageName": "windows_i686_gnu",
+        "version": "0.53.1"
+      }
+    },
+    "cargo:windows_i686_msvc": {
+      "type": "cargo",
+      "name": "cargo:windows_i686_msvc",
+      "data": {
+        "packageName": "windows_i686_msvc",
+        "version": "0.53.1"
+      }
+    },
+    "cargo:windows_x86_64_gnu": {
+      "type": "cargo",
+      "name": "cargo:windows_x86_64_gnu",
+      "data": {
+        "packageName": "windows_x86_64_gnu",
+        "version": "0.53.1"
+      }
+    },
+    "cargo:windows_i686_gnullvm": {
+      "type": "cargo",
+      "name": "cargo:windows_i686_gnullvm",
+      "data": {
+        "packageName": "windows_i686_gnullvm",
+        "version": "0.53.1"
+      }
+    },
+    "cargo:windows_x86_64_gnullvm": {
+      "type": "cargo",
+      "name": "cargo:windows_x86_64_gnullvm",
+      "data": {
+        "packageName": "windows_x86_64_gnullvm",
+        "version": "0.53.1"
       }
     },
     "cargo:wit-bindgen-rust-macro": {
@@ -3583,7 +4607,27 @@
       },
       {
         "source": "my_app",
+        "target": "cargo:axum",
+        "type": "static"
+      },
+      {
+        "source": "my_app",
         "target": "core",
+        "type": "static"
+      },
+      {
+        "source": "my_app",
+        "target": "cargo:tokio",
+        "type": "static"
+      },
+      {
+        "source": "my_app",
+        "target": "cargo:tracing",
+        "type": "static"
+      },
+      {
+        "source": "my_app",
+        "target": "cargo:tracing-subscriber",
         "type": "static"
       }
     ],
@@ -3630,6 +4674,11 @@
     "api": [
       {
         "source": "api",
+        "target": "cargo:axum",
+        "type": "static"
+      },
+      {
+        "source": "api",
         "target": "core",
         "type": "static"
       },
@@ -3640,12 +4689,42 @@
       },
       {
         "source": "api",
+        "target": "cargo:http",
+        "type": "static"
+      },
+      {
+        "source": "api",
         "target": "cargo:serde",
         "type": "static"
       },
       {
         "source": "api",
         "target": "cargo:serde_json",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "cargo:tokio",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "cargo:tower",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "cargo:tower-http",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "cargo:tracing",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "cargo:tracing-subscriber",
         "type": "static"
       },
       {
@@ -5926,5 +7005,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1763389318399
+  "computedAt": 1763390247825
 }

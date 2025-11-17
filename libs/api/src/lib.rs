@@ -119,4 +119,3 @@ async fn delete_pet(
         )),
     }
 }
-
