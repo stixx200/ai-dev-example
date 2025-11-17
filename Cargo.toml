@@ -1,0 +1,13 @@
+
+[workspace]
+resolver = '2'
+members = [
+	'apps/my_app',
+	'libs/core',
+	'libs/utils',
+	'libs/data',
+	'libs/api',
+]
+
+[profile.release]
+lto = true

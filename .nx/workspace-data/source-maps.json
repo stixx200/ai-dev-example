@@ -1,0 +1,700 @@
+{
+  "apps/my_app": {
+    "root": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "release": [
+      "apps/my_app/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets": [
+      "apps/my_app/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish": [
+      "apps/my_app/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "apps/my_app/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.executor": [
+      "apps/my_app/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.options": [
+      "apps/my_app/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "$schema": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.target-dir": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.release": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.target-dir": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.production": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.production.release": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.cache": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.target-dir": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.run": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.run.executor": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.run.outputs": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.run.options": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.run.configurations": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.run.options.target-dir": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.run.configurations.production": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.run.configurations.production.release": [
+      "apps/my_app/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/api": {
+    "root": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "release": [
+      "libs/api/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets": [
+      "libs/api/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish": [
+      "libs/api/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "libs/api/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.executor": [
+      "libs/api/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.options": [
+      "libs/api/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "$schema": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.target-dir": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.target-dir": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.production": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.production.release": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.cache": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.target-dir": [
+      "libs/api/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/core": {
+    "root": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "release": [
+      "libs/core/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets": [
+      "libs/core/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish": [
+      "libs/core/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "libs/core/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.executor": [
+      "libs/core/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.options": [
+      "libs/core/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "$schema": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.target-dir": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.target-dir": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.production": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.production.release": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.cache": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.target-dir": [
+      "libs/core/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/data": {
+    "root": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "release": [
+      "libs/data/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets": [
+      "libs/data/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish": [
+      "libs/data/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "libs/data/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.executor": [
+      "libs/data/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.options": [
+      "libs/data/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "$schema": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.target-dir": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.target-dir": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.production": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.production.release": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.cache": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.target-dir": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/utils": {
+    "root": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "release": [
+      "libs/utils/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets": [
+      "libs/utils/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish": [
+      "libs/utils/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "libs/utils/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.executor": [
+      "libs/utils/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "targets.nx-release-publish.options": [
+      "libs/utils/Cargo.toml",
+      "@monodon/rust"
+    ],
+    "$schema": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.target-dir": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.target-dir": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.production": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.production.release": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.cache": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.target-dir": [
+      "libs/utils/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}

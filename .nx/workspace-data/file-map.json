@@ -1,0 +1,214 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.0.3",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@monodon/rust",
+      "version": "2.3.0"
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "WORKSPACE_OVERVIEW.md",
+        "hash": "10827253294792827714"
+      },
+      {
+        "file": "README.md",
+        "hash": "2815120595682641465"
+      },
+      {
+        "file": "Cargo.toml",
+        "hash": "2173432523773731171"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "3833545590435012078"
+      },
+      {
+        "file": "CLAUDE.md",
+        "hash": "7853241679760809325"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "18435103667633526488"
+      },
+      {
+        "file": "static/runtime.js",
+        "hash": "14980783667260047515"
+      },
+      {
+        "file": "Cargo.lock",
+        "hash": "10850119061374023256"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "12591928529941735212"
+      },
+      {
+        "file": "package.json",
+        "hash": "12003373210402749359"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "static/environment.js",
+        "hash": "11925806859271364587"
+      },
+      {
+        "file": "AGENTS.md",
+        "hash": "7853241679760809325"
+      },
+      {
+        "file": ".cargo/config.toml",
+        "hash": "16334474086392874934"
+      },
+      {
+        "file": "static/styles.js",
+        "hash": "16803620677878581351"
+      },
+      {
+        "file": "static/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": ".mcp.json",
+        "hash": "16635761437242934062"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "5374274027077642546"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "nx.json",
+        "hash": "18388725227631259194"
+      },
+      {
+        "file": "verify-setup.sh",
+        "hash": "12662624282473162286"
+      },
+      {
+        "file": "static/styles.css",
+        "hash": "5790686815247881049"
+      },
+      {
+        "file": "static/main.js",
+        "hash": "5298880918434374259"
+      },
+      {
+        "file": "project-graph.html",
+        "hash": "6183388263616623200"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      }
+    ],
+    "projectFileMap": {
+      "utils": [
+        {
+          "file": "libs/utils/Cargo.toml",
+          "hash": "2246702584723420309"
+        },
+        {
+          "file": "libs/utils/project.json",
+          "hash": "1355089322190864210"
+        },
+        {
+          "file": "libs/utils/src/lib.rs",
+          "hash": "14131651843077132157"
+        }
+      ],
+      "api": [
+        {
+          "file": "libs/api/Cargo.toml",
+          "hash": "3297132248098001027",
+          "deps": [
+            "core",
+            "data",
+            "cargo:serde",
+            "cargo:serde_json",
+            "cargo:uuid"
+          ]
+        },
+        {
+          "file": "libs/api/project.json",
+          "hash": "15624564870525024965"
+        },
+        {
+          "file": "libs/api/src/lib.rs",
+          "hash": "6487605314653266301"
+        },
+        {
+          "file": "libs/api/src/lib.rs.bak",
+          "hash": "13750920343326892222"
+        }
+      ],
+      "core": [
+        {
+          "file": "libs/core/Cargo.toml",
+          "hash": "15243736315439599276",
+          "deps": [
+            "data",
+            "cargo:parking_lot",
+            "utils",
+            "cargo:uuid"
+          ]
+        },
+        {
+          "file": "libs/core/project.json",
+          "hash": "8135698804105576391"
+        },
+        {
+          "file": "libs/core/src/lib.rs",
+          "hash": "10004689020820241968"
+        }
+      ],
+      "data": [
+        {
+          "file": "libs/data/Cargo.toml",
+          "hash": "943035251488001224",
+          "deps": [
+            "cargo:chrono",
+            "cargo:serde",
+            "cargo:uuid"
+          ]
+        },
+        {
+          "file": "libs/data/project.json",
+          "hash": "864222185160376896"
+        },
+        {
+          "file": "libs/data/src/lib.rs",
+          "hash": "2505038038582864302"
+        }
+      ],
+      "my_app": [
+        {
+          "file": "apps/my_app/Cargo.toml",
+          "hash": "3351601131641064785",
+          "deps": [
+            "api",
+            "core"
+          ]
+        },
+        {
+          "file": "apps/my_app/project.json",
+          "hash": "17904698510830110166"
+        },
+        {
+          "file": "apps/my_app/src/main.rs",
+          "hash": "17221026249028948318"
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "7667025328509853567"
+}

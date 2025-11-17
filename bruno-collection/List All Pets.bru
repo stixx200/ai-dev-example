@@ -1,0 +1,29 @@
+meta {
+  name: List All Pets
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{baseUrl}}/pets
+  body: none
+  auth: none
+}
+
+tests {
+  test("Status should be 200", function() {
+    expect(res.status).to.equal(200);
+  });
+  
+  test("Response should contain pets array", function() {
+    expect(res.body.pets).to.be.an('array');
+  });
+  
+  test("Response should contain count", function() {
+    expect(res.body.count).to.be.a('number');
+  });
+  
+  test("Count should match pets array length", function() {
+    expect(res.body.count).to.equal(res.body.pets.length);
+  });
+}

@@ -1,0 +1,38 @@
+meta {
+  name: Get Pet by ID
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{baseUrl}}/pets/{{petId}}
+  body: none
+  auth: none
+}
+
+tests {
+  test("Status should be 200", function() {
+    expect(res.status).to.equal(200);
+  });
+  
+  test("Response should contain pet ID", function() {
+    expect(res.body.id).to.be.a('string');
+  });
+  
+  test("Response should contain required fields", function() {
+    expect(res.body).to.have.property('name');
+    expect(res.body).to.have.property('species');
+    expect(res.body).to.have.property('owner_name');
+    expect(res.body).to.have.property('owner_email');
+    expect(res.body).to.have.property('created_at');
+    expect(res.body).to.have.property('updated_at');
+  });
+}
+
+docs {
+  # Get Pet by ID
+  
+  This request retrieves a specific pet by its UUID.
+  
+  **Note:** Make sure to run "Create Pet" first to generate a `petId` variable.
+}

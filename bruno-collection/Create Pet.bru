@@ -1,0 +1,45 @@
+meta {
+  name: Create Pet
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/pets
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Buddy",
+    "species": "Dog",
+    "breed": "Golden Retriever",
+    "age": 3,
+    "owner_name": "John Doe",
+    "owner_email": "john@example.com"
+  }
+}
+
+tests {
+  test("Status should be 201", function() {
+    expect(res.status).to.equal(201);
+  });
+  
+  test("Response should contain pet ID", function() {
+    expect(res.body.id).to.be.a('string');
+  });
+  
+  test("Pet name should match", function() {
+    expect(res.body.name).to.equal("Buddy");
+  });
+  
+  test("Pet species should match", function() {
+    expect(res.body.species).to.equal("Dog");
+  });
+  
+  // Save the pet ID for other requests
+  if (res.body.id) {
+    bru.setVar("petId", res.body.id);
+  }
+}

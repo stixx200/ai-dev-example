@@ -1,0 +1,35 @@
+meta {
+  name: Delete Pet
+  type: http
+  seq: 6
+}
+
+delete {
+  url: {{baseUrl}}/pets/{{petId}}
+  body: none
+  auth: none
+}
+
+tests {
+  test("Status should be 200", function() {
+    expect(res.status).to.equal(200);
+  });
+  
+  test("Response should contain deleted pet", function() {
+    expect(res.body.id).to.equal(bru.getVar("petId"));
+  });
+  
+  test("Response should have all pet fields", function() {
+    expect(res.body).to.have.property('name');
+    expect(res.body).to.have.property('species');
+    expect(res.body).to.have.property('owner_name');
+  });
+}
+
+docs {
+  # Delete Pet
+  
+  This request deletes a pet by its UUID and returns the deleted pet data.
+  
+  **Note:** Make sure to run "Create Pet" first to generate a `petId` variable.
+}
